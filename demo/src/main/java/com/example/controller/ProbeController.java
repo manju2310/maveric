@@ -1,9 +1,9 @@
-package src.main.java.com.example.controller;
+package com.example.controller;
 
+import com.example.dto.Direction;
+import com.example.dto.Grid;
+import com.example.dto.Probe;
 import org.springframework.web.bind.annotation.*;
-import src.main.java.com.example.dto.Direction;
-import src.main.java.com.example.dto.Grid;
-import src.main.java.com.example.dto.Probe;
 
 @RestController
 @RequestMapping("/probe")

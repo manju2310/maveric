@@ -1,4 +1,4 @@
-package src.main.java.com.example.dto;
+package com.example.dto;
 
 import java.util.*;
 

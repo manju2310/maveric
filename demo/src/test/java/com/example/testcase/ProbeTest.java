@@ -1,9 +1,12 @@
+package com.example.testcase;
+
 import static org.junit.jupiter.api.Assertions.*;
+
+import com.example.dto.Direction;
+import com.example.dto.Grid;
+import com.example.dto.Probe;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import src.main.java.com.example.dto.Direction;
-import src.main.java.com.example.dto.Grid;
-import src.main.java.com.example.dto.Probe;
 
 public class ProbeTest {
     private Probe probe;
